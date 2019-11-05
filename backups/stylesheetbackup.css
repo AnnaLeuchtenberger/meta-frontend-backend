@@ -1,0 +1,70 @@
+
+body {
+    text-align: center;
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 3em;
+  }
+img {
+    max-width: 30%;
+    height: auto;
+  }
+
+a {
+    text-decoration: none;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  background-color: #fff;
+  color: #444;
+  height: 80vh
+}
+
+.box {
+  background-color: #fff; 
+  color: #444;
+  padding: 10px;
+  font-size: 120%;
+}
+      
+    .topleft {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 1; 
+      grid-row-end: 23;
+      justify-self: right;
+      background-image: url(images/horse.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      }
+
+    .topright {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1; 
+        grid-row-end: 23;
+        background-image: url(images/horse.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 350px;
+        background-position: right;
+        }
+
+    .bottomleft {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 23;
+      grid-row-end: 30;
+      font-size: larger;
+      text-align: right;
+    }
+
+    .bottomright {
+      grid-column-start: 5;
+      grid-column-end: 9;
+      grid-row-start: 23; 
+      grid-row-end: 30;
+      }

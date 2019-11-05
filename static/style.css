@@ -1,0 +1,110 @@
+
+body {
+    text-align: center;
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 3em;
+  }
+img {
+    height: auto;
+    max-width: 700px;
+    vertical-align: bottom;
+    overflow:hidden
+  }
+
+  p.rtl {
+    direction: rtl;
+  }
+
+a {
+    text-decoration: none;
+
+}
+
+.lefttext {
+  color:red
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  background-color: #fff;
+  color: #444;
+  height: 80vh
+}
+
+.box {
+  background-color: #fff; 
+  color: #444;
+  padding: 10px;
+  font-size: 120%;
+}
+      
+    .topleft {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 1; 
+      grid-row-end: 23;
+      max-width: 325px;
+      justify-self: right;
+      vertical-align: bottom;
+      }
+
+    .topright {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1; 
+        grid-row-end: 23;
+        max-width: 350px;
+        justify-self: left;
+        vertical-align: bottom;
+        overflow:hidden
+        }
+
+    .middleleft {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 23;
+      grid-row-end: 25;
+      max-width: 325px;
+      min-width: 325px;
+      justify-self: right;
+      font-size: 50px;
+      text-align: right;
+    }
+
+    .middleright {
+      grid-column-start: 5;
+      grid-column-end: 9;
+      grid-row-start: 23; 
+      grid-row-end: 25;
+      max-width: 350px;
+      min-width: 350px;
+      font-size: 50px;
+      text-align: left
+      }
+
+    .bottomleft {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 25;
+      grid-row-end: 30;
+      justify-self: right;
+      max-width: 325px;
+      min-width: 325px;
+      overflow-wrap: break-word;
+      text-align: right;
+      font-size: small;
+      }
+
+    .bottomright {
+      grid-column-start: 5;
+      grid-column-end: 9;
+      grid-row-start: 25; 
+      grid-row-end: 30;
+      justify-self: left;
+      max-width: 350px;
+      min-width: 350px;
+      font-size: small;
+      text-align: left;
+      overflow-wrap: break-word;
+      }
